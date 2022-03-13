@@ -13,7 +13,7 @@ int stats_find_min(int array[], int size) {
 }
 
 int stats_find_max(int array[], int size) {
-	int max = INT_MIN;			// "default" τιμή, μικρότερη από όλες
+	int max = INT_MIN;			// "default" τιμή, μικρότερη από όλες, ok 
 
 	for(int i = 0; i < size; i++)
 		if(array[i] > max)
